@@ -27,6 +27,7 @@ python test_detector.py --detector output/stop_sign_detector.svm --testing stop_
 
 ## References
 
+- HOG (Histograms of oriented gradients) paper: https://ieeexplore.ieee.org/document/1467360
 - Official dlib doc: http://dlib.net/compile.html
 - Caltech 101 dataset: http://www.vision.caltech.edu/Image_Datasets/Caltech101/
 - More solid theory: https://www.pyimagesearch.com/pyimagesearch-gurus/
