@@ -1,12 +1,12 @@
 # Object detection with Non-maxima suppression (NMS)
 
-Testing a custom object detector with NMS (used HOG to extract features from the images and a linear SVM to classify them).
+> Testing a custom object detector with NMS (used HOG to extract features from the images and a linear SVM to classify them).
 
-### NMS is used to reduce overlapping bounding boxes to only a single bounding box, thus representing the true detection of the object. Having overlapping boxes is not exactly practical and ideal, especially if we need to count the number of objects in an image.
+## NMS is used to reduce overlapping bounding boxes to only a single bounding box, thus representing the true detection of the object. Having overlapping boxes is not exactly practical and ideal, especially if we need to count the number of objects in an image.
 
 Without NMS         |  With NMS
 :-------------------------:|:-------------------------:
-![Without](mylib/utils/without.png?raw=true "Without")  |  ![With](mylib/misc/with.png?raw=true "With")
+![Without](mylib/utils/without.png?raw=true "Without")  |  ![With](mylib/utils/with.png?raw=true "With")
 
 ---
 
