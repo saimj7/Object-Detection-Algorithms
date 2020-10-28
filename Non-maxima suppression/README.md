@@ -14,7 +14,6 @@ Without NMS         |  With NMS
 
 - We are testing a car class from the Caltech 101 dataset.
 - Setup your dataset paths and configurations in 'conf/cars.json' file.
-- Download the weights file from [**here**](https://drive.google.com/file/d/1bSJo8cU_gyzttScRskb5F45aeLu4LF3_/view?usp=sharing) and place it in 'output/cars' folder along with model.cpickle file.
 - The model is also trained with 'Sceneclass13' dataset to aid in accurate class detections.
 - To test the trained detector ```(replace --image with any image from the dataset)``` :
 

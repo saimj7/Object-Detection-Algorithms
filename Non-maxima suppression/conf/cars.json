@@ -36,6 +36,6 @@
 	/****
 	* LINEAR SVM
 	****/
-	"classifier_path": "output/cars/model.cpickle",
+	"classifier_path": "output/model.cpickle",
 	"C": 0.01
 }
