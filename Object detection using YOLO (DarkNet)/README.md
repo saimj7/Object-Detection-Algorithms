@@ -2,7 +2,12 @@
 
 Real-time object detection with a webcam.
 
-- First up, download the weights file from [**here**](https://drive.google.com/file/d/1H-x7vUsS28M89xbaQwH21yh9Fz65xC5Z/view?usp=sharing) and place it in the bin folder.
+![Demo](demo.gif?raw=true "demo") 
+
+---
+## Inference
+
+- First up, download the weights file from [**here**](https://drive.google.com/file/d/1H-x7vUsS28M89xbaQwH21yh9Fz65xC5Z/view?usp=sharing) and place it in the bin folder (create it).
 - Respectively rename/match the file in webcam.py (``` 'load': 'bin/yolov2.weights' ```).
 - To run:
 
