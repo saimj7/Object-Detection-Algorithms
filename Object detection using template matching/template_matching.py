@@ -1,5 +1,5 @@
 # USAGE
-# python template_matching.py --source source_01.jpg --template template.jpg
+# python template_matching.py --source mylib/source_01.jpg --template mylib/template.jpg
 
 # import the necessary packages
 import argparse
