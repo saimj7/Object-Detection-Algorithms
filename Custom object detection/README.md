@@ -24,7 +24,6 @@ $ mkdir build
 $ cd build
 $ cmake ..
 $ cmake --build . --config Release
-
 ```
 - Set the system path environment variable (usually C:\Users\xxx\dlib-19.21\tools\imglab\build\Release).
 
@@ -38,12 +37,21 @@ $ cmake --build . --config Release
 - Note: I have already provided the annotated xml file for this example, make sure you rename/create as per your wish in the command.
 - Start imglab: ```$ imglab face_detector/newfile.xml```. The following GUI should open up:
 
+<div align="center">
+<img src= mylib/utils/imglab.png?raw=true width=550>
+</div>
+
 - To start labeling, hold the 'shift' key and drag a bounding box around the object. 
 - It is important that all the examples of objects are labeled to avoid false positives/bad accuracies. 
 
 > If there is an ROI that you are unsure about and want to be ignored entirely during the training process, simply double-click the bounding box and press the 'i' key. This will cross out the bounding box and mark it as 'ignored'.
 
 - After the process is done, click file > save. The annotated file should look like this:
+
+<div align="center">
+<img src= mylib/utils/annotated.png?raw=true width=450>
+</div>
+
 
 ## Inference
 
