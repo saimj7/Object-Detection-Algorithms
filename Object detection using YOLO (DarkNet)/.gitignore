@@ -2,9 +2,6 @@
 # Python bytecode
 *.pyc
 
-# Weight files
-bin/
-
 # Sample image data
 sample_img/*.jpg
 !sample_img/sample_*.jpg
